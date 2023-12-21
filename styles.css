@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+div{
+	display : flex;
+	justify-content : center;
+	align-items: center;
+	height: 100vw;
+	background-color : #765aee;
+}
+.search {
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .search.active {
+            background-color: lightblue;
+        }
+
+        .input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 8px;
+            transition: border-color 0.3s ease;
+        }
+
+        .btn {
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
